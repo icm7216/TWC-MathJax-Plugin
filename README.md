@@ -154,21 +154,13 @@ like this
 
 ### step2.
 
-Edit the code to specify the local file directory.
-
-*   Add comment mark "//" within an "online use" section.
-*   Remove comment mark "//" within an "offline use" section.
-
-Fix this part of the code.  
-like this
+Enable the Pulgin Options ''chkMathJaxOffline'' checkbox.
 
 ```
-// ## Offine use ##
-mathJaxScript: "MathJax/MathJax.js?config=TeX-AMS_HTML",
+Options
 
-// ## Online use ##
-// ## uncomment the following line if you want to access MathJax using SSL ##
-    mathJaxScript: "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML",
+Offline use in the local library if enabled.
+[ ] chkMathJaxOffline
 ```
 
 
@@ -182,4 +174,4 @@ To enable the plugin, Save the TWC file and reload it.
 
 # License
 
-BSD open source license
+MIT

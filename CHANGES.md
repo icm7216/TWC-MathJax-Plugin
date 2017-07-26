@@ -2,6 +2,11 @@
 
 # 変更履歴
 
+##  1.1.6 Jul. 27, 2017
+
+*   ローカルライブラリ使用時の切り替えを容易にできるように、オフライン・オプション `chkMathJaxOffline` を追加。
+*   ライセンスを MIT に変更。
+
 Jul. 26, 2017
 
 便宜上、プラグインtiddlerを個別ファイルに作成して履歴管理できるように、[icm7216.github.io/MyTiddlyWiki/](https://icm7216.github.io/MyTiddlyWiki/) からプラグインの個別リポジトリを作成。
