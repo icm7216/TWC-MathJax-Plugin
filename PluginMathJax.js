@@ -23,14 +23,14 @@ Changes from the original
 credit of original author
 <<<
 credit of original author
-|''Name:''|MathJaxPlugin|
-|''Description:''|Enable LaTeX formulas for TiddlyWiki|
-|''Version:''|1.0.1|
-|''Date:''|Feb 11, 2012|
-|''Source:''|http://www.guyrutenberg.com/2011/06/25/latex-for-tiddlywiki-a-mathjax-plugin|
-|''Author:''|Guy Rutenberg|
-|''License:''|[[BSD open source license]]|
-|''~CoreVersion:''|2.5.0|
+||''Name:''|MathJaxPlugin|
+||''Description:''|Enable LaTeX formulas for TiddlyWiki|
+||''Version:''|1.0.1|
+||''Date:''|Feb 11, 2012|
+||''Source:''|http://www.guyrutenberg.com/2011/06/25/latex-for-tiddlywiki-a-mathjax-plugin|
+||''Author:''|Guy Rutenberg|
+||''License:''|[[BSD open source license]]|
+||''~CoreVersion:''|2.5.0|
 <<<
 
 
