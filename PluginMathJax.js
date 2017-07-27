@@ -22,7 +22,6 @@ Changes from the original
 
 credit of original author
 <<<
-credit of original author
 ||''Name:''|MathJaxPlugin|
 ||''Description:''|Enable LaTeX formulas for TiddlyWiki|
 ||''Version:''|1.0.1|
