@@ -3,7 +3,7 @@
 |''Description:''|Enable LaTeX formulas for TiddlyWiki|
 |''Author:''|icm7216 aka babooshka|
 |''Version:''|1.1.6|
-|''Date:''|May 27, 2017|
+|''Date:''|Jul. 27, 2017|
 |''Requires''|[[MathJax|http://www.mathjax.org/]]|
 |''Source''|[[icm7216/TWC-MathJax-plugin|https://github.com/icm7216/TWC-MathJax-plugin]]|
 |''License:''|[[MIT|https://opensource.org/licenses/MIT]]|
