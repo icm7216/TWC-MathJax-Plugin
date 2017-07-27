@@ -21,9 +21,13 @@ Changes from the original
 *   added autoNumber.
 *   added MathJax Configuration Options.
 
+#### MathJax Plugin and demo, on the icm7216.github.io.
+
+*   [MathJax Plugin](https://icm7216.github.io/MyTiddlyWiki/#PluginMathJax)
+*   [MathJax in Markdown](https://icm7216.github.io/MyTiddlyWiki/#%5B%5BMathJax%20in%20Markdown%5D%5D)
 
 
-# Installation Plugin
+## Installation Plugin
 
 Create a new tiddler with the following contents.
 
@@ -37,21 +41,21 @@ Create a new tiddler with the following contents.
 To enable the plugin, Save the TWC file and reload it.
 
 
-# Usage
+## Usage
 
-## inline equation `$---$`
+### inline equation `$---$`
 
 ```
 This is an inline equation $P(E) = {n \choose k} p^k (1-p)^{ n-k}$ 
 ```
 
-## inline equation `\(---\)`
+### inline equation `\(---\)`
 
 ```
 This is an inline equation \(P(E) = {n \choose k} p^k (1-p)^{ n-k}\)
 ```
  
-## displayed equation `$$---$$`
+### displayed equation `$$---$$`
 
 ```
 this is a displayed equation: 
@@ -60,7 +64,7 @@ P(E) = {n \choose k} p^k (1-p)^{ n-k}
 $$
 ```
 
-## displayed equation `\[---\]`
+### displayed equation `\[---\]`
 
 ```
 this is a displayed equation: 
@@ -69,7 +73,7 @@ this is a displayed equation:
 \]
 ```
 
-## equation numbers
+### equation numbers
 
 will be numbered
 ```
@@ -97,29 +101,30 @@ interesting integral:
 ```
 
 
-### If you writing the dollar sign into a tiddler. To use escape the "$" sign for "\$" notation.
+#### If you writing the dollar sign into a tiddler. To use escape the "$" sign for "\$" notation.
 
 ```
 13‑inch starts at \$1299, 15‑inch starts at \$1999
 ```
 
 
-Displays as:
+### Displays as:
+
 ![mathjax_out.png](./img/mathjax_out.png "MathJax output")
 
 
 ----
 
 
-# Tips! 
+## Tips! 
 
-## Offline use in the local library
+### Offline use in the local library
 
 When you want to use offline. Require to install "MathJax" on your PC.
 
-## How to local installation
+### How to local installation
 
-### setp1.
+#### setp1.
 
 Download and install `MathJax` zip files. and then extract files using any extract tool. For example, [7-Zip](http://www.7-zip.org/), or [Lhaplus](http://www.forest.impress.co.jp/library/software/lhaplus/), etc.
 
@@ -152,7 +157,7 @@ like this
 ```
 
 
-### step2.
+#### step2.
 
 Enable the Pulgin Options ''chkMathJaxOffline'' checkbox.
 
@@ -164,7 +169,7 @@ Offline use in the local library if enabled.
 ```
 
 
-### step3.
+#### step3.
 
 To enable the plugin, Save the TWC file and reload it.
 
@@ -172,6 +177,6 @@ To enable the plugin, Save the TWC file and reload it.
 ----
 
 
-# License
+## License
 
 MIT
