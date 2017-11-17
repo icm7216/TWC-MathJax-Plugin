@@ -2,8 +2,8 @@
 |''Name:''|PluginMathJax|
 |''Description:''|Enable LaTeX formulas for TiddlyWiki|
 |''Author:''|icm7216 aka babooshka|
-|''Version:''|1.1.6|
-|''Date:''|Jul. 27, 2017|
+|''Version:''|1.1.7|
+|''Date:''|Nov. 17, 2017|
 |''Requires''|[[MathJax|http://www.mathjax.org/]]|
 |''Source''|[[icm7216/TWC-MathJax-plugin|https://github.com/icm7216/TWC-MathJax-plugin]]|
 |''License:''|[[MIT|https://opensource.org/licenses/MIT]]|
@@ -165,19 +165,19 @@ These files should be installed under the directory of TiddlyWiki.
 like this
 {{{
 TiddlyWiki/
-    +--- memo.html           <== your TiddlyWiki file
-    +--- MathJax/            <== MathJax directory is here
-        config/
-        docs/
-        extensions/
-        fonts/
-        images/
-        jax/
-        localization/
-        test/
-        unpacked/
-        MathJax.js
-        *** etc. *** 
+    +-- memo.html           <== your TiddlyWiki file
+    +-- MathJax/            <== MathJax directory is here
+            +-- config/
+            +-- docs/
+            +-- extensions/
+            +-- fonts/
+            +-- images/
+            +-- jax/
+            +-- localization/
+            +-- test/
+            +-- unpacked/
+            +-- MathJax.js
+            *** etc. *** 
 }}}
 
 !!!step2.
@@ -209,7 +209,7 @@ config.extensions.MathJax = {
 
     // ## Online use ##
     // ## uncomment the following line if you want to access MathJax using SSL ##
-    CDN_MathJax: "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML",
+    CDN_MathJax: "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-AMS_HTML",
 
 
     // ## MathJax Configuration Options. MathJax.Hub.Config() ##
@@ -231,9 +231,9 @@ config.extensions.MathJax = {
         },
         "HTML-CSS": {
             scale: 100,
-            undefinedFamily: "Consolas, 'メイリオ', verdana, STIXGeneral"
+            undefinedFamily: "Consolas, Meiryo, verdana, STIXGeneral"
         },
-        styles: { ".MathJax": { color:"blue"} },
+        styles: { ".MathJax": { color:"black"} },
         noErrors: {
             inlineDelimiters: [['$','$'], ["\\(","\\)"]],
             multiLine: true,    // false for TeX on all one line

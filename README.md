@@ -141,19 +141,19 @@ These files must be installed in the same directory of the TiddlyWiki file.
 like this
 ```
 /TiddlyWiki/
-    +--- memo.html           <== your TiddlyWiki file
-    +--- MathJax/            <== MathJax directory is here
-        config/
-        docs/
-        extensions/
-        fonts/
-        images/
-        jax/
-        localization/
-        test/
-        unpacked/
-        MathJax.js
-        *** etc. ***
+    +-- memo.html           <== your TiddlyWiki file
+    +-- MathJax/            <== MathJax directory is here
+            +-- config/
+            +-- docs/
+            +-- extensions/
+            +-- fonts/
+            +-- images/
+            +-- jax/
+            +-- localization/
+            +-- test/
+            +-- unpacked/
+            +-- MathJax.js
+            *** etc. ***
 ```
 
 
