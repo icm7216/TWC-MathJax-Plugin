@@ -2,8 +2,8 @@
 |''Name:''|PluginMathJax|
 |''Description:''|Enable LaTeX formulas for TiddlyWiki|
 |''Author:''|icm7216 aka babooshka|
-|''Version:''|1.1.8|
-|''Date:''|Apr. 17, 2018|
+|''Version:''|1.1.9|
+|''Date:''|Nov. 14, 2018|
 |''Requires''|[[MathJax|http://www.mathjax.org/]]|
 |''Source''|[[icm7216/TWC-MathJax-plugin|https://github.com/icm7216/TWC-MathJax-plugin]]|
 |''License:''|[[MIT|https://opensource.org/licenses/MIT]]|
@@ -209,7 +209,7 @@ config.extensions.MathJax = {
 
     // ## Online use ##
     // ## uncomment the following line if you want to access MathJax using SSL ##
-    CDN_MathJax: "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_HTML",
+    CDN_MathJax: "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_HTML",
 
 
     // ## MathJax Configuration Options. MathJax.Hub.Config() ##
