@@ -208,7 +208,6 @@ config.extensions.MathJax = {
     Local_MathJax: "MathJax/MathJax.js?config=TeX-AMS_HTML",
 
     // ## Online use ##
-    // ## uncomment the following line if you want to access MathJax using SSL ##
     CDN_MathJax: "https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS-MML_CHTML",
 
 
