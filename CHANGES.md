@@ -2,6 +2,10 @@
 
 # 変更履歴
 
+## 1.1.10 Jan. 05, 2022
+
+*   Update MathJax the latest version 2 release (2.7.9 currently).
+
 ## 1.1.9 Nov. 14, 2018
 
 *   Update Mathjax, change version to 2.7.5 
